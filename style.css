@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.hdr-ctn{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  padding: 30px 50px 20px 20px;
+  margin-top: 5px;
+}
+nav{
+  margin-top: 44px;
+  text-align: center;
+  padding: 0 300px 0 20px; 
+  
+}
+nav a{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: skyblue;
+}
+h1 .name{
+  font-weight: 900;
+}
+h4 a{
+  color: black;
+  padding-left: 30px;
+}
+.bio{
+  display: flex;
+  margin-left: 30px;
+}
+.description{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 25px;
+  max-width: 35%;
+}
+.profile .img{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 4px dashed skyblue;
+}
+.list{
+  list-style-type: circle;
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  max-width: 100%;
+  align-content: center;
+}
+.details h3{
+  padding-left: 5px;
+}
+footer{
+ text-align: center;
+}
+button{
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 15px;
+  background-color: #f8f9fa;
+}
+button a{
+  text-decoration: none;
+  color: skyblue;
+}
+button:hover {
+  background: skyblue;
+}
+button a:hover{
+  color: white;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  
+}
+.form-hd{
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.uppercase {
+  text-transform: uppercase;
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+label{
+  font-family: Nunito, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25rem;
+}
+input, select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 8px; 
+  resize: vertical;
+}
+.form{
+  background-color: skyblue;
+  width: 40%;
+  margin-top: 1.25rem;
+  padding: 2.5rem;
+  border-radius: 10px
+}
+.label-main{
+  color: black;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  text-decoration: underline;
+}
